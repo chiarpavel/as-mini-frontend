@@ -6,7 +6,6 @@ import { logout } from '../actions';
 
 const useStyles = makeStyles({
     header: {
-        minHeight: '8vh',
         padding: '2vh 5vw',
         zIndex: 1,
         display: 'flex',

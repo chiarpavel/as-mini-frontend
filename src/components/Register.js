@@ -64,15 +64,16 @@ function Register() {
                     variant="filled"
                     className={classes.textField}
                     label="Email"
-                    value={password}
-                    onChange={e => setPassword(e.target.value)}
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
                 />
                 <TextField
                     variant="filled"
+                    type="password"
                     className={classes.textField}
                     label="Password"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
                 />
                 <Button
                     variant="contained"

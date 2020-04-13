@@ -1,7 +1,7 @@
 import axios from 'axios';
 import config from './config';
 
-axios.defaults.withCredentials = true;
+if (process.env.NODE_ENV === 'development') axios.defaults.withCredentials = true;
 
 export const type = {
     SET_SESSION: 'SET_SESSION',
